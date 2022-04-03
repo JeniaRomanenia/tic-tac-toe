@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="icon" href="./assets/favicon.ico">
+  <script src="https://use.fontawesome.com/8398fde194.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container" id="container">
+    <!-- Start Page-->
+    <div class="start">
+      <h2> 
+        Крестики Нолики
+      </h2>
+      <div class="line"></div>
+        <h4>
+          ВЫБЕРИ, КТО ТЫ?
+        </h4>
+        <div class="button">
+          <button id="playerX" class="choose right">Игрок ( X )</button>
+          <button id="playerO" class="choose ">Игрок ( O )</button>
+        </div>
+    </div>
+    <!--Main Page-->
+    <div class="mainPage">
+      <div class="headerBtns">
+        <button id="X-turn" class="turn">
+          X Игрок
+        </button>
+        <button id="O-turn" class="turn O-turn">
+          O Игрок
+        </button>
+        <div class="showChange"></div>
+      </div>
+      <div class="gameBoard">
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+      </div>
+    </div>
+    <!--Winner Page-->
+    <div class="winner"> 
+      <h2 class="wiinnerName">
+        Игрок X Выйграл Игру!
+      </h2>
+      <div class="button center">
+        <button class="quit" >
+          Играть Заново
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="text"> © 2022 </div>
+  
+      <a href="https://github.com/JeniaRomanenia">github</a>
+  
+      <a class="logo-rss" href="https://rs.school/js/"> </a>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
