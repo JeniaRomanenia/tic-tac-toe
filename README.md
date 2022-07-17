@@ -1,5 +1,7 @@
 # tic-tac-toe
 
+[tic-tac-toe](https://jeniaromanenia.github.io/tic-tac-toe/)
+
 It was a study project on [RSSchool Stage0 course](https://rs.school/js-stage0/). 
 
 
